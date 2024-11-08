@@ -8,9 +8,6 @@
   src: url(/fonts/Roboto-Italic.ttf);
 }
 
-@media screen {
-  
-}
 /* Параграфы и текст */
 
 .header {
@@ -30,13 +27,15 @@ h2 {
 }
 
 .img {
-  width: 100%;
-  height: fit-content;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .img1 {
-  width: 100%;
-  height: fit-content;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
 }
 
 .players {
